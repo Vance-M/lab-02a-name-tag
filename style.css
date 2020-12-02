@@ -1,8 +1,12 @@
 body, html {
-    width: 50%;
-    height: 30%;
+    width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 * {
@@ -11,14 +15,6 @@ body, html {
 .tag {
     height: 300px;
     width: 500px;
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    padding-left: 5px;
     border: 1px solid black;
     border-radius: 10%;
     color: white;
@@ -29,25 +25,30 @@ body, html {
     flex-direction: column;
     font-size: 100%;
 }
-.inner_tag {
-    height: 75px;
-    width: 500px;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    color: black;
-    background-color: white;
+.header {
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 1.5em;
-    font-weight: bold;
+}
+.header2 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inner_tag {
+    height: 75px;
+    width: 500px;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
