@@ -32,14 +32,14 @@ body, html {
     align-items: center;
     flex-direction: column;
 }
-.header2 {
+.header-2 {
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.inner_tag {
+.inner-tag {
     height: 75px;
     width: 500px;
     background-color: white;
