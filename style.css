@@ -51,4 +51,16 @@ body, html {
     flex-direction: column;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    font-style: italic;
+}
+
+#red-button {
+    background-color: red;
+}
+
+#blue-button {
+    background-color: blue;
+}
+#random-button {
+    background-color: hotpink;
 }
